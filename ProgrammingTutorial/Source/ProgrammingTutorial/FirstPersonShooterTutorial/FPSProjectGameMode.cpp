@@ -1,12 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "ProgrammingTutorialGameModeBase.h"
+#include "FPSProjectGameMode.h"
 
 
 
 
-
-void AProgrammingTutorialGameModeBase::StartPlay()
+void AFPSProjectGameMode::StartPlay()
 {
 	Super::StartPlay();
 
@@ -14,6 +13,6 @@ void AProgrammingTutorialGameModeBase::StartPlay()
 	{
 		// Display a debug message for five seconds. 
 		// The -1 "Key" value (first argument) indicates that we will never need to update or refresh this message.
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, TEXT("Run AProgrammingTutorialGameModeBase!"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, TEXT("Run AFPSProjectGameMode!"));
 	}
 }

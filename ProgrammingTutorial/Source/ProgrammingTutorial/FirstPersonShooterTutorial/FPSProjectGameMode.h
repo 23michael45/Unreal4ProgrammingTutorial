@@ -4,19 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ProgrammingTutorialGameModeBase.generated.h"
+#include "FPSProjectGameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PROGRAMMINGTUTORIAL_API AProgrammingTutorialGameModeBase : public AGameModeBase
+class PROGRAMMINGTUTORIAL_API AFPSProjectGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
-	
-
 
 		virtual void StartPlay() override;
+	
+	
 };
