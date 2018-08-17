@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2A227016-4F62-EBE2-D200-AF9E08A91085}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProgrammingTutorial",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	]
+}
